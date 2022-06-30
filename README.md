@@ -14,3 +14,4 @@
 | No | Metode |
 |--|--|
 | 1 | Environment Setup |
+| 2 | Laravel Installer |
