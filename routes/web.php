@@ -58,3 +58,15 @@ Route::get('/', function () {
 // Cara melakukan parsing data dan menampilkannya pada view profil -> Versi 3
 // $appName = "Laravel 8";
 // Route::view('/', 'home', ['appName' => $appName ]);
+
+// // Routing untuk menampilkan halaman kontak
+// Route::view('contact','contact');
+
+// // Routing untuk menampilkan halaman home
+// Route::get('home', function() {
+//   $appName = "Laravel 8";
+//   return view ('home', [
+//     'appName' => $appName
+//   ]);
+// });
+
