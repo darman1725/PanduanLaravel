@@ -15,3 +15,4 @@
 |--|--|
 | 1 | Environment Setup |
 | 2 | Laravel Installer |
+| 3 | Hello Valet |
