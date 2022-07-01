@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home | {{ $appName }} |</title>
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    </head>
-    <body>
-        @include('layouts.navbar')
-        Home Page
-        <script src="{{ asset('js/app.js') }}"></script>
-    </body>
-</html>
+@extends('layouts.app', ['title' => 'Home Page'])
+
+@section('content', 'Ini adalah halaman beranda')
