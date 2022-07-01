@@ -13,37 +13,36 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-  // --------------PENULISAN BENAR------------//
-  /* Contoh Menambahkan String pada route get / */
-  //  return "My name is Darman";
+// Route::get('/', function () {
+//   // --------------PENULISAN BENAR------------//
+//   /* Contoh Menambahkan String pada route get / */
+//   //  return "My name is Darman";
 
 
-  // --------------PENULISAN SALAH---------//
-  /* Contoh Penulisan view yang salah / */
-    //return view('welcome.blade.php');
-  // Alasannya salah dikarenakan titik(.) menandakan letak sebuah folder,
-  // Bukan name file. Sehingga nama file ditulis tanpa ekstensi
-  /* Contoh Penulisan view yang benar / */
-     // return view('welcome');
+//   // --------------PENULISAN SALAH---------//
+//   /* Contoh Penulisan view yang salah / */
+//     //return view('welcome.blade.php');
+//   // Alasannya salah dikarenakan titik(.) menandakan letak sebuah folder,
+//   // Bukan name file. Sehingga nama file ditulis tanpa ekstensi
+//   /* Contoh Penulisan view yang benar / */
+//      // return view('welcome');
 
-  // return view('1/2/3/title');
+//   // return view('1/2/3/title');
   
-  //return view('home');
-});
+//   //return view('home');
+// });
 
 // Route::get('/home', function() {
 //     return view ('home');
 // });
 
 
-// // Cara melakukan parsing data dan menampilkannya pada view profil -> Versi 1
+// Cara melakukan parsing data dan menampilkannya pada view profil -> Versi 1
 // Route::get('/profil', function() {
-//     $name = "Darman";
+//     $name = "Darman Saragih";
 //     return view ('profile',  [
 //         'name' => $name
 //     ]);
-  
 // });
 
 
@@ -59,14 +58,22 @@ Route::get('/', function () {
 // $appName = "Laravel 8";
 // Route::view('/', 'home', ['appName' => $appName ]);
 
-// // Routing untuk menampilkan halaman kontak
-// Route::view('contact','contact');
+// Routing untuk menampilkan halaman kontak
+Route::view('contact','contact');
 
-// // Routing untuk menampilkan halaman home
-// Route::get('home', function() {
-//   $appName = "Laravel 8";
-//   return view ('home', [
-//     'appName' => $appName
-//   ]);
-// });
+// Routing untuk menampilkan halaman home
+Route::get('/', function() {
+  $appName = "Buku Tamu";
+  return view ('home', [
+    'appName' => $appName
+  ]);
+});
+
+Route::get('posts/first-post', function() {
+  return view ('posts.show');
+});
+
+Route::view('about','about');
+
+Route::view('profile','profile');
 

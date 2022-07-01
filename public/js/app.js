@@ -1,1 +1,1 @@
-alert('Hello Gita Kartika Pariwara')
+// alert('Badan Pusat Statistik Kota Malang')

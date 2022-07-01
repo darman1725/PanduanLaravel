@@ -8,7 +8,8 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-        This is home page
+        @include('layouts.navbar')
+        Home Page
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
