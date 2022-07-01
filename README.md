@@ -17,3 +17,5 @@
 | 2 | Laravel Installer |
 | 3 | Hello Valet |
 | 4 | Routing |
+| 5 | Pembelajaran dengan assets |
+
