@@ -24,3 +24,17 @@ body{
    padding: 10px;
    display: inline-block;
  }
+
+ .alert {
+  background: indigo;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+ }
+
+ .alert-header {
+  background: khaki;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+ }
