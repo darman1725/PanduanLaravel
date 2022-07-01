@@ -18,4 +18,5 @@
 | 3 | Hello Valet |
 | 4 | Routing |
 | 5 | Pembelajaran dengan assets |
-
+| 6 | Layout dengan blade - Part 1 |
+| 7 | Layout dengan blade - Part 2 |
